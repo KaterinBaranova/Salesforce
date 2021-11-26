@@ -5,7 +5,7 @@ import org.openqa.selenium.WebDriver;
 
 public abstract class HomePage extends BasePage {
 
-    final static By SALES_LABEL = By.cssSelector("span[title=Sales]");
+    final static By SALES_LABEL = By.xpath("//*[@title='Sales']");
 
     public HomePage(WebDriver driver) {
         super(driver);
